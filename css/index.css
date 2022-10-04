@@ -1,7 +1,10 @@
 
-@media all and(max-width:767px){
+@media all and(min-width:768px){
 
-    
+.discount{
+    width: 50%;
+}
+
 }
 
 @media all and(min-width:768px)and(max-width:991px){
@@ -35,3 +38,28 @@
     padding-left: 0;
     padding-right: 0;
 }
+.narges{
+    background-color:#e68688;
+}
+    
+.pic-2{
+    width:7%;
+}
+
+.pic-3{
+    width:15%;
+}
+
+.pic-2:hover {
+    background: #5073f3;
+    box-shadow: 0 15px 20px rgba(112, 118, 237, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  .pic-3:hover {
+    background: #5073f3;
+    box-shadow: 0 15px 20px rgba(185, 52, 81, 0.4);
+    color: white;
+    transform: translateY(-7px);
+  }
