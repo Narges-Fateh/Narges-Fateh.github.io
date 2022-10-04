@@ -1,9 +1,6 @@
 
 @media all and(min-width:768px){
 
-.discount{
-    width: 50%;
-}
 
 }
 
@@ -31,16 +28,12 @@
     
 }
 
-.background-info{
-    background-color:#e1999a;
-}
+
 .remove-padding{
     padding-left: 0;
     padding-right: 0;
 }
-.narges{
-    background-color:#e68688;
-}
+
     
 .pic-2{
     width:7%;
@@ -50,16 +43,38 @@
     width:15%;
 }
 
-.pic-2:hover {
-    background: #5073f3;
+ .pic-2:hover {
+   
     box-shadow: 0 15px 20px rgba(112, 118, 237, 0.4);
-    color: white;
+  
     transform: translateY(-7px);
+
   }
 
   .pic-3:hover {
-    background: #5073f3;
+    
     box-shadow: 0 15px 20px rgba(185, 52, 81, 0.4);
-    color: white;
+   
     transform: translateY(-7px);
-  }
+  } 
+
+.p-4{
+    background-image: url(../images/banner.jpg);
+}
+.intro{
+    color:rgb(238, 134, 64)
+    
+}
+.what{
+   max-width: 500px;
+   margin: auto;
+}
+.service-box{
+    padding:10px;
+    box-shadow:0px 6px 30px rgba(0,0,0,0.08);
+    text-align: center;
+
+}
+.service-box img{
+    max-width: 250px;
+}
