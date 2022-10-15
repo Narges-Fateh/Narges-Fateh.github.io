@@ -53,9 +53,11 @@
 
 }
 
+
+
 .banner {
     height: 100vh;
-    background-image: url("../images/makeup.jpg");
+    background: linear-gradient(#d7cf24, #9987, rgba(28, 11, 32, 0.3)), url("../images/makeup.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,6 +65,16 @@
     background-blend-mode: overlay;
     background-color: #2e2e34;
 }
+
+
+.ban2 {
+
+    background: linear-gradient(#f33c42, rgba(29, 28, 28, 0.982), rgba(11, 11, 11, 0.944));
+
+    background-blend-mode: overlay;
+
+}
+
 
 .banner h1 {
 
@@ -108,7 +120,7 @@
 }
 
 
-.pressed-button {
+.bri-button {
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
@@ -122,15 +134,39 @@
     font-weight: 300;
     color: whitesmoke;
     box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
-    transition:all .5s;
+    transition: all .5s;
 }
 
-.pressed-button:hover {
+.bri-button:hover {
     box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
     background-position: 0 0;
-    border:0px solid #eeb3af;
+    border: 0px solid #eeb3af;
 }
-.max-w{
+
+.max-w {
     max-width: 800px;
 }
 
+
+
+.button-two {
+    background: #FF4742;
+    border: 1px solid #df3b35;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    padding: 12px 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button-two:hover {
+    background-color: inherit;
+    color: #FF4742;
+}
