@@ -1,4 +1,10 @@
-@media all and(min-width:768px) {}
+@media all and(max-width:767px) {
+    .remove-p{
+       padding-left: 1px;
+       padding-right: 1px;
+
+    }
+}
 
 @media all and(min-width:768px)and(max-width:991px) {}
 
@@ -57,7 +63,7 @@
 
 .banner {
     height: 100vh;
-    background: linear-gradient(#d7cf24, #9987, rgba(28, 11, 32, 0.3)), url("../images/makeup.jpg");
+    background: linear-gradient(#d7cf24, rgba(202, 202, 78, 0.467), rgba(28, 11, 32, 0.3)), url("../images/makeup.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,4 +175,10 @@
 .button-two:hover {
     background-color: inherit;
     color: #FF4742;
+}
+.maaxx{
+    max-width: 500px;
+}
+p,h1,h2,h3,h4{
+    text-align: justify;
 }
