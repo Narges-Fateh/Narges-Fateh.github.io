@@ -1,12 +1,10 @@
 @media all and(max-width:767px) {
-    .remove-p{
-       padding-left: 1px;
-       padding-right: 1px;
-
-    }
+    
 }
 
-@media all and(min-width:768px)and(max-width:991px) {}
+@media all and(min-width:768px)and(max-width:991px) {
+    
+}
 
 @media all and(min-width:992px)and(max-width:1199px) {}
 
@@ -14,7 +12,9 @@
 
 @media all and(min-width:1400px) {}
 
-
+body{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
 .main-header {
     position: absolute;
     width: 100%;
@@ -83,8 +83,7 @@
 
 
 .banner h1 {
-
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-right: 5px auto;
     color: #e58f00;
 
 
@@ -92,26 +91,23 @@
 
 .banner .banner-content p {
     font-size: 25px;
-    font-family: monospace;
-    color: white;
+     color: white;
     max-width: 500px;
 
 
 }
 
-.remove {
-    padding: 0;
-}
+
 
 .banner .banner-content .banner-btn a {
     background-color: #e58f00;
-    font-size: 20px;
+    font-size: 16px;
     color: #28282d;
     text-decoration: none;
     padding: 10px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5px;
     transition: all 0.5s;
+
 
 }
 
@@ -132,7 +128,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid #eeb3af;
-    background-image: linear-gradient(45deg, #e8699a 0%, #e9cdad 50%, #da498f 100%);
+    background-image: linear-gradient(45deg, #5d4954, #ffa69e 50%, #da498f 100%);
     background-position: 100% 0;
     background-size: 200% 200%;
     font-family: 'Montserrat', sans-serif;
@@ -198,5 +194,50 @@ p,h1,h2,h3,h4{
     padding-right: 0;
 }
 .backg-gra4{
-    background: linear-gradient(45deg,#009ffd,#2a2a72);
+    background: linear-gradient(45deg,#000000,#e84393);
+}
+
+.btn-massage{
+    background-color: #EA4C89;
+    border-radius: 5px;
+    box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  padding: 10px 15px;
+  transition: all 0.5s;
+}
+.btn-massage:hover{
+    background-color: #5f2049;
+}
+
+
+.btn-forcard{
+    background: #eb599d;
+  border: 1px solid #b12363;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 15px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.btn-forcard:hover{
+    background-color: initial;
+    color: #FF4742;
+}
+.list-final{
+   list-style-type: none;
+}
+.f-fam{
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
