@@ -196,7 +196,7 @@ line-height: 35px;
     padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid #eeb3af;
-    background-image: linear-gradient(45deg, #65053a, #eb97d6 50%, #f30779 100%);
+    background-image: linear-gradient(45deg, #a6075e, #eb97d6 50%, #f30779 100%);
     font-size: 16px;
     font-weight: bold;
     color: whitesmoke;
@@ -294,6 +294,109 @@ line-height: 35px;
 .btn-massage:hover {
     background-color: #8e1b65;
 }
+
+
+.final-header {
+    width: 100%;
+    background: conic-gradient(#3d0916 0% 33%, #5f0517 0% 66%, #480318 0% 100%);
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+
+
+.final-banner-text {
+
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+ 
+}
+
+.final-banner-text span {
+    color: red;
+    font-weight: bold;
+
+}
+
+
+
+.map-Frame
+{
+    border-style: solid;
+    border-width: 6px;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 20px #000000;
+    margin: auto;
+    border-radius: 80px;
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.final-banner-text p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.final-banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hro {
+    animation: hro 10s linear infinite alternate;
+
+    
+}
+
+.final-banner-btn {
+    width: 15%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #e52545;
+    color: #26191b;
+    font-size: 15px;
+    background-color: rgba(74, 4, 5);
+    -webkit-transition: color .5s;
+    transition: color .5s;
+
+}
+
+.final-banner-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #d54e60;
+    z-index: -1;
+    -webkit-transition: -webkit-transform .5s;
+    transition: transform .5s;
+}
+
+.final-banner-btn:hover {
+    background-color: #FFFFFF;
+}
+
 
 
 
@@ -423,80 +526,6 @@ a:hover {
     }
     
 } */
-.final-header {
-    width: 100%;
-    background: conic-gradient(#3d0916 0% 33%, #5f0517 0% 66%, #480318 0% 100%);
-    display: flex;
-    color: white;
-    justify-content: center;
-}
-
-
-
-.final-banner-text {
-
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-    font-weight: 500;
-
-}
-
-.final-banner-text span {
-    color: red;
-    text-transform: capitalize;
-}
-
-.final-banner-text p {
-    font-size: 1rem;
-    line-height: 2rem;
-}
-
-.final-banner-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.hro {
-    animation: hro 10s linear infinite alternate;
-
-    
-}
-
-.final-banner-btn {
-    width: 15%;
-    text-align: center;
-    position: relative;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    border: 1px solid #e52545;
-    color: #26191b;
-    font-size: 15px;
-    background-color: rgba(74, 4, 5);
-    -webkit-transition: color .5s;
-    transition: color .5s;
-
-}
-
-.final-banner-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #d54e60;
-    z-index: -1;
-    -webkit-transition: -webkit-transform .5s;
-    transition: transform .5s;
-}
-
-.final-banner-btn:hover {
-    background-color: #FFFFFF;
-}
-
-
-
 
 
 .iconf {
