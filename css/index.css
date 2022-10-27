@@ -1,10 +1,6 @@
-@media all and(max-width:767px) {
-    
-}
+@media all and(max-width:767px) {}
 
-@media all and(min-width:768px)and(max-width:991px) {
-    
-}
+@media all and(min-width:768px)and(max-width:991px) {}
 
 @media all and(min-width:992px)and(max-width:1199px) {}
 
@@ -12,9 +8,26 @@
 
 @media all and(min-width:1400px) {}
 
-body{
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200&family=Kalam:wght@300;400&family=Zen+Maru+Gothic:wght@300&display=swap');
+
+
+body {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
+    ;
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+
 
 .main-header {
     position: absolute;
@@ -24,25 +37,27 @@ body{
 
 .main-header .menu {
     display: flex;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 
 
 .main-header .menu li {
-    padding: 0 15px;
+    padding: 0 13px;
     list-style-type: none;
 }
 
 .main-header .menu li a {
     text-decoration: none;
-    text-transform: uppercase;
     color: whitesmoke;
     font-size: 17px;
 
 }
 
-
+.main-header .menu li a:hover {
+    color: #e58f00;
+    font-weight: 300;
+}
 
 
 .main-header {
@@ -61,40 +76,29 @@ body{
 }
 
 
-
 .banner {
     height: 100vh;
     background: linear-gradient(#d7cf24, rgba(202, 202, 78, 0.467), rgba(28, 11, 32, 0.3)), url("../images/makeup.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 206 px 0 125px 0;
     background-blend-mode: overlay;
     background-color: #2e2e34;
-}
-
-
-.ban2 {
-
-    background: linear-gradient(#f33c42, rgba(29, 28, 28, 0.982), rgba(11, 11, 11, 0.944));
-
-    background-blend-mode: overlay;
 
 }
 
 
-.banner h1 {
-margin-right: 5px auto;
+
+.banner h2 {
     color: #e58f00;
-
-
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 .banner .banner-content p {
-    font-size: 25px;
-     color: white;
-    max-width: 500px;
-
+    font-size: 23px;
+    color: white;
+    max-width: 450px;
+    line-height: 40px;
 
 }
 
@@ -102,12 +106,13 @@ margin-right: 5px auto;
 
 .banner .banner-content .banner-btn a {
     background-color: #e58f00;
-    font-size: 16px;
+    font-size: 15px;
     color: #28282d;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     transition: all 0.5s;
+    font-weight: bold;
 
 
 }
@@ -118,35 +123,19 @@ margin-right: 5px auto;
     color: #fff;
 }
 
-.space-margin {
-    margin-top: 100px !important;
-}
 
 
-.bri-button {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 1px solid #eeb3af;
-    background-image: linear-gradient(45deg, #e71388, #ffa69e 50%, #da498f 100%);
-    
-       font-size: 18px;
-    font-weight: 300;
-    color: whitesmoke;
-    box-shadow: 0 16px 32px 0 rgba(101, 2, 7, 0.35);
-    transition: all 0.5s;
+
+
+
+
+.banner2 {
+
+    background-blend-mode: overlay;
+    background: linear-gradient(90deg, #d62121, #c72c2c, #3a1111);
+
 }
 
-.bri-button:hover {
-    box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
-   
-    border: 0px solid #eeb3af;
-}
-
-.max-w {
-    max-width: 800px;
-}
 
 
 
@@ -165,82 +154,263 @@ margin-right: 5px auto;
     padding: 12px 14px;
     text-align: center;
     vertical-align: middle;
+    margin-top: 10px;
 }
 
 .button-two:hover {
     background-color: inherit;
     color: #FF4742;
 }
-.maaxx{
-    max-width: 500px;
+
+
+.pic-1{
+    width:60%;
+   
+ 
 }
-p,h1,h2,h3,h4{
-    text-align: justify;
+.pic-1:hover {
+    box-shadow: -10px -10px 5px rgb(113, 4, 4);
 }
 
-.backg-gra{
-    background: linear-gradient(45deg,#005C97,#363795);
-}
-.backg-gra2{
-    background: linear-gradient(90deg,#d62121,#c72c2c,#3a1111);
-}
-.backg-gra3{
-    background: linear-gradient(45deg,#009ffd,#2a2a72);
+
+ .banner2 p {
+    font-size:18px;
+    color: white;
+    max-width: 750px;
+    line-height: 35px;
+    padding-right: 15px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+
 }
 
-.nana{
-    padding-left: 0;
-    padding-right: 0;
-}
-.backg-gra4{
-    background: linear-gradient(45deg,#000000,#e84393);
+
+.max-w {
+    max-width: 800px;
+line-height: 35px;
 }
 
-.btn-massage{
-    background-color: #EA4C89;
+
+.bri-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
     border-radius: 5px;
-    box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  padding: 10px 15px;
-  transition: all 0.5s;
+    border: 1px solid #eeb3af;
+    background-image: linear-gradient(45deg, #65053a, #eb97d6 50%, #f30779 100%);
+    font-size: 16px;
+    font-weight: bold;
+    color: whitesmoke;
+    box-shadow: 0 16px 32px 0 rgba(101, 2, 7, 0.35);
+    transition: all 0.5s;
 }
-.btn-massage:hover{
-    background-color: #5f2049;
+
+.bri-button:hover {
+    box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+    border: 0px solid #eeb3af;
 }
 
 
-.btn-forcard{
+
+
+.cad-hover:hover {
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3 ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+.btn-forcard {
+    display: block;
     background: #eb599d;
-  border: 1px solid #b12363;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 15px;
-  height: 40px;
-  text-align: center;
-  vertical-align: middle;
+    border: 1px solid #b12363;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 35px;
+    text-align: end;
+
 
 }
-.btn-forcard:hover{
+
+.btn-forcard:hover {
     background-color: initial;
     color: #FF4742;
 }
-.list-final{
-   list-style-type: none;
+
+
+
+.f-forcard{
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+
+.pic-2{
+    animation: pic-2 3s linear infinite;
+}
+
+@keyframes pic-2 {
+    from {
+        transform: rotate(5deg);
+    }
+
+    to {
+        transform: rotate(-5deg);
+    }
+
+}
+
+
+
+.banner3{
+    background: linear-gradient(45deg, #000000, #e84393);
+    line-height: 35px;
+}
+
+.btn-massage {
+    background-color: #EA4C89;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 15px;
+    transition: all 0.5s;
+}
+
+.btn-massage:hover {
+    background-color: #8e1b65;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.firsta {
+    text-decoration: none;
+    transition: all 0.4 ease;
+}
+
+.firstsec {
+
+    position: relative;
+    background-image: url(../images/aaaaaaaaaaa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 50vh;
+    z-index: 2;
+    position: relative;
+}
+
+.overn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 224, 254, 0.7), rgba(7, 3, 116, 0.7));
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space-margin {
+    margin-top: 100px !important;
+}
+
+
+
+
+
+
+
+
+
+.maaxx {
+    max-width: 500px;
+}
+
+p
+ {
+    text-align: justify;
+}
+
+.backg-gra {
+    background: linear-gradient(45deg, #005C97, #363795);
+}
+
+
+
+.backg-gra3 {
+    background: linear-gradient(45deg, #009ffd, #2a2a72);
+}
+
+.nana {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+.list-final {
+    list-style-type: none;
 }
 
 
 a,
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
@@ -253,49 +423,144 @@ a:hover{
     }
     
 } */
-.final-header{
+.final-header {
     width: 100%;
     background: conic-gradient(#3d0916 0% 33%, #5f0517 0% 66%, #480318 0% 100%);
     display: flex;
-    color:white;
+    color: white;
     justify-content: center;
 }
 
 
 
-.final-banner-text{
-   
+.final-banner-text {
+
     font-size: 1.1rem;
     margin-bottom: 1rem;
     font-weight: 500;
-    
+
 }
-.final-banner-text span{
+
+.final-banner-text span {
     color: red;
     text-transform: capitalize;
 }
 
-.final-banner-text p{
+.final-banner-text p {
     font-size: 1rem;
-    line-height:2rem;
+    line-height: 2rem;
 }
 
-.final-banner-btn{
+.final-banner-btn {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.hro{
+.hro {
     animation: hro 10s linear infinite alternate;
-    @keyframes mylogo {
-        from{
-            transform: rotate(5deg);
-        }
-        to{
-            transform:rotate(-5deg);
-        }
-        
+
+    
+}
+
+.final-banner-btn {
+    width: 15%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #e52545;
+    color: #26191b;
+    font-size: 15px;
+    background-color: rgba(74, 4, 5);
+    -webkit-transition: color .5s;
+    transition: color .5s;
+
+}
+
+.final-banner-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #d54e60;
+    z-index: -1;
+    -webkit-transition: -webkit-transform .5s;
+    transition: transform .5s;
+}
+
+.final-banner-btn:hover {
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+.iconf {
+    color: rgb(138, 23, 86);
+    font-size: 20px;
+
+
+
+
+}
+
+
+
+
+
+
+.firsta {
+    position: absolute;
+    left: calc(50% - 3em);
+    bottom: calc(50% - 8em);
+    height: 4em;
+    width: 8em;
+    background: rgb(31, 55, 234);
+    background: linear-gradient(rgb(17, 8, 139), rgb(136, 188, 230));
+    border: none;
+    border-top: 3px solid rgb(145, 6, 18);
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+    vertical-align: middle;
+    animation: firsta 2s linear infinite;
+    line-height: 3em;
+}
+
+@keyframes firsta {
+
+    0%,
+    10% {
+        transform: rotateZ(0);
+    }
+
+    20% {
+        transform: rotateZ(-15deg);
+    }
+
+    25% {
+        transform: rotateZ(10deg);
+    }
+
+    30% {
+        transform: rotateZ(-10deg);
+    }
+
+    35% {
+        transform: rotateZ(6deg);
+    }
+
+    40% {
+        transform: rotateZ(-4deg);
+    }
+
+    50%,
+    100% {
+        transform: rotateZ(0);
     }
 }
