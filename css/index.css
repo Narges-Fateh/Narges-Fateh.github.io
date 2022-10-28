@@ -1,6 +1,11 @@
 @media all and(max-width:767px) {}
 
-@media all and(min-width:768px)and(max-width:991px) {}
+@media all and(min-width:768px)and(max-width:991px) {
+    .remove-padding{
+        padding-left: 1p;
+        padding-right: 0;
+    }
+}
 
 @media all and(min-width:992px)and(max-width:1199px) {}
 
@@ -14,9 +19,8 @@
 
 body {
     font-family: 'IBM Plex Sans Arabic', sans-serif;
-    ;
-}
 
+}
 
 h1,
 h2,
@@ -33,6 +37,7 @@ h6 {
     position: absolute;
     width: 100%;
     top: 0;
+    
 }
 
 .main-header .menu {
@@ -95,7 +100,7 @@ h6 {
 }
 
 .banner .banner-content p {
-    font-size: 23px;
+    font-size:1.5rem;
     color: white;
     max-width: 450px;
     line-height: 40px;
@@ -125,17 +130,12 @@ h6 {
 
 
 
-
-
-
-
 .banner2 {
 
     background-blend-mode: overlay;
     background: linear-gradient(90deg, #d62121, #c72c2c, #3a1111);
 
 }
-
 
 
 
@@ -148,7 +148,7 @@ h6 {
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 800;
     line-height: 16px;
     padding: 12px 14px;
@@ -163,18 +163,17 @@ h6 {
 }
 
 
-.pic-1{
-    width:60%;
-   
- 
+.pic-1 {
+    width: 60%;
+
 }
+
 .pic-1:hover {
     box-shadow: -10px -10px 5px rgb(113, 4, 4);
 }
 
-
- .banner2 p {
-    font-size:18px;
+.banner2 p {
+    font-size: 1rem;
     color: white;
     max-width: 750px;
     line-height: 35px;
@@ -183,10 +182,9 @@ h6 {
 
 }
 
-
 .max-w {
     max-width: 800px;
-line-height: 35px;
+    line-height: 35px;
 }
 
 
@@ -209,8 +207,16 @@ line-height: 35px;
     border: 0px solid #eeb3af;
 }
 
+.pic-3 {
+   
+    box-shadow: 10px 15px 25px 0 rgba(76, 2, 50, 0.634);
+    transition: all .5s cubic-bezier(0.5, 0.020, 0.030, 1);
 
+}
 
+.pic-3:hover {
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .1);
+}
 
 .cad-hover:hover {
     box-sizing: border-box !important;
@@ -222,12 +228,6 @@ line-height: 35px;
     z-index: 2;
 }
 
-
-
-
-
-
-
 .btn-forcard {
     display: block;
     background: #eb599d;
@@ -238,8 +238,6 @@ line-height: 35px;
     cursor: pointer;
     height: 35px;
     text-align: end;
-
-
 }
 
 .btn-forcard:hover {
@@ -249,12 +247,12 @@ line-height: 35px;
 
 
 
-.f-forcard{
+.f-forcard {
     font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 
-.pic-2{
+.pic-2 {
     animation: pic-2 3s linear infinite;
 }
 
@@ -270,8 +268,7 @@ line-height: 35px;
 }
 
 
-
-.banner3{
+.banner3 {
     background: linear-gradient(45deg, #000000, #e84393);
     line-height: 35px;
 }
@@ -302,8 +299,8 @@ line-height: 35px;
     display: flex;
     color: white;
     justify-content: center;
+   
 }
-
 
 
 .final-banner-text {
@@ -311,7 +308,7 @@ line-height: 35px;
     font-size: 1.1rem;
     margin-bottom: 1rem;
     font-weight: 500;
- 
+
 }
 
 .final-banner-text span {
@@ -320,10 +317,7 @@ line-height: 35px;
 
 }
 
-
-
-.map-Frame
-{
+.map-Frame {
     border-style: solid;
     border-width: 6px;
     border-color: #ffffff;
@@ -335,17 +329,6 @@ line-height: 35px;
     height: 400px;
     position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 .final-banner-text p {
@@ -360,11 +343,6 @@ line-height: 35px;
 
 }
 
-.hro {
-    animation: hro 10s linear infinite alternate;
-
-    
-}
 
 .final-banner-btn {
     width: 15%;
@@ -398,38 +376,26 @@ line-height: 35px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .firsta {
     text-decoration: none;
     transition: all 0.4 ease;
 }
 
-.firstsec {
+.first-mdsize {
 
     position: relative;
     background-image: url(../images/aaaaaaaaaaa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.first-mdsize h3 {
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.first-mdsize p {
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 section {
@@ -451,60 +417,22 @@ section {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.space-margin {
-    margin-top: 100px !important;
+.small-size {
+    background: linear-gradient(45deg, #009ffd, #2a2a72);
+    font-size: 1rem;
 }
-
-
-
-
-
-
-
-
 
 .maaxx {
     max-width: 500px;
 }
 
-p
- {
+p {
     text-align: justify;
 }
 
 .backg-gra {
     background: linear-gradient(45deg, #005C97, #363795);
 }
-
-
-
-.backg-gra3 {
-    background: linear-gradient(45deg, #009ffd, #2a2a72);
-}
-
-.nana {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-
-
-
-
-
 
 
 .list-final {
@@ -532,15 +460,7 @@ a:hover {
     color: rgb(138, 23, 86);
     font-size: 20px;
 
-
-
-
 }
-
-
-
-
-
 
 .firsta {
     position: absolute;
@@ -592,4 +512,124 @@ a:hover {
     100% {
         transform: rotateZ(0);
     }
+}
+
+
+#event {
+
+    width: 130px;
+    height: 150px;
+    border: 2px solid #a4097d;
+    border-radius: 21px;
+    position: fixed;
+    top: 200px;
+    right: 50px;
+     animation: lucky 2s ease-in-out 0s infinite alternate none;
+
+}
+
+@keyframes lucky {
+    from {
+        margin-bottom: 0px;
+    }
+
+    to {
+        margin-top: 15px;
+    }
+
+}
+
+#point {
+
+    width: 35px;
+    transform: rotate(45deg) scale(1);
+      position: fixed;
+    top: 330px;
+    right: 160px;
+    animation: point 2s ease-in-out 0s infinite alternate none;
+
+}
+
+@keyframes point {
+    from {
+        margin-bottom: 0px;
+    }
+
+    to {
+        margin-top: 15px;
+    }
+
+}
+
+footer{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+ 
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+       line-height: 3rem;
+       font-family: 'Zen Maru Gothic', sans-serif;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 1rem;
+    color: #cacdd2;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: rgb(183, 16, 16);
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
 }
